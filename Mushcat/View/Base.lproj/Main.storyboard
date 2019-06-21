@@ -15,14 +15,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" userLabel="Welcome" customClass="ViewController" customModule="Mushcat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gucci cat" translatesAutoresizingMaskIntoConstraints="NO" id="Rsk-DZ-eCa">
-                                <rect key="frame" x="0.0" y="70" width="315" height="447"/>
+                                <rect key="frame" x="0.0" y="70" width="315" height="383"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VR0-G0-dYc">
-                                <rect key="frame" x="30" y="510" width="315" height="52"/>
+                                <rect key="frame" x="30" y="446" width="315" height="52"/>
                                 <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="0.92618257705479456" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="za1-pz-cs7"/>
@@ -36,7 +36,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwE-Pv-NK3">
-                                <rect key="frame" x="30" y="578" width="315" height="52"/>
+                                <rect key="frame" x="30" y="514" width="315" height="52"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="hGk-oI-1OO"/>
@@ -78,14 +78,14 @@
             <objects>
                 <viewController id="J08-9E-Oge" userLabel="Sign Up" customClass="SignInViewController" customModule="Mushcat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hFe-nG-yLM">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mushroom1" translatesAutoresizingMaskIntoConstraints="NO" id="32M-XK-0xK">
-                                <rect key="frame" x="0.0" y="185" width="375" height="442"/>
+                                <rect key="frame" x="0.0" y="165" width="375" height="398"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q9C-u5-tqx" userLabel="SubView">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jKZ-zm-ERM">
                                         <rect key="frame" x="97" y="30" width="180" height="30"/>
@@ -155,11 +155,11 @@
             <objects>
                 <viewController id="jtZ-ze-eh4" userLabel="Choose Kind" customClass="ChooseKindViewController" customModule="Mushcat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HZm-5w-rHk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8qe-et-DHh">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pusheenTheCat" translatesAutoresizingMaskIntoConstraints="NO" id="qh5-hT-OIk">
                                         <rect key="frame" x="71" y="0.0" width="232" height="156"/>
@@ -189,7 +189,7 @@
                                         </constraints>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aDk-7a-zgJ" userLabel="ButView">
-                                        <rect key="frame" x="52" y="502" width="270" height="70"/>
+                                        <rect key="frame" x="52" y="438" width="270" height="70"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hgn-OG-bRi">
                                                 <rect key="frame" x="0.0" y="0.0" width="105" height="70"/>
@@ -235,7 +235,7 @@
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please choose your breed:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KoD-6f-xd2">
-                                        <rect key="frame" x="52" y="442" width="270" height="23"/>
+                                        <rect key="frame" x="52" y="378" width="270" height="23"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -285,18 +285,18 @@
             <objects>
                 <viewController id="jju-aI-5JW" customClass="StatusViewController" customModule="Mushcat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OHl-8g-7Yx">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="success" translatesAutoresizingMaskIntoConstraints="NO" id="FzY-1u-30T">
-                                <rect key="frame" x="97.5" y="175" width="180" height="180"/>
+                                <rect key="frame" x="97.5" y="155" width="180" height="180"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="180" id="JTY-Qr-HDX"/>
                                     <constraint firstAttribute="height" constant="180" id="pa3-8g-4GX"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Success!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K9K-Zf-mJZ">
-                                <rect key="frame" x="126.5" y="420" width="122" height="36"/>
+                                <rect key="frame" x="126.5" y="400" width="122" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="U8c-2e-Mg5"/>
                                     <constraint firstAttribute="width" constant="122" id="UzS-zU-6WF"/>
@@ -306,7 +306,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bu8-II-1sR">
-                                <rect key="frame" x="161" y="498" width="53" height="53"/>
+                                <rect key="frame" x="161" y="434" width="53" height="53"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="53" id="4TD-2U-las"/>
                                     <constraint firstAttribute="height" constant="53" id="6Pm-4I-Wnt"/>
@@ -317,7 +317,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To Log In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gq-2l-Jqm">
-                                <rect key="frame" x="152.5" y="554" width="70" height="21"/>
+                                <rect key="frame" x="152.5" y="490" width="70" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -351,13 +351,13 @@
             <objects>
                 <viewController title="Channel" id="kvM-4M-A7g" userLabel="Contact" customClass="ChannelViewController" customModule="Mushcat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tbo-lI-JAi">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xsF-j3-m0I">
-                                <rect key="frame" x="148" y="439" width="79" height="28"/>
+                                <rect key="frame" x="118" y="375" width="139" height="28"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="23"/>
-                                <state key="normal" title="NEXT" image="nextIcon">
+                                <state key="normal" title="PRESS ME!" image="nextIcon">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -365,7 +365,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mushRun" translatesAutoresizingMaskIntoConstraints="NO" id="qyf-67-p8U">
-                                <rect key="frame" x="16" y="147" width="82" height="81"/>
+                                <rect key="frame" x="16" y="127" width="82" height="81"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="82" id="0qd-Xe-VBp"/>
                                     <constraint firstAttribute="height" constant="81" id="XM6-8o-vO7"/>
@@ -386,7 +386,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="catRun" translatesAutoresizingMaskIntoConstraints="NO" id="9FJ-ZX-KN9">
-                                <rect key="frame" x="246" y="129" width="113" height="116"/>
+                                <rect key="frame" x="246" y="109" width="113" height="116"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="116" id="C48-0b-kqO"/>
                                     <constraint firstAttribute="width" constant="113" id="dGI-DG-wes"/>
@@ -426,11 +426,11 @@
             <objects>
                 <viewController id="bVb-81-QX8" userLabel="Chat" customClass="ChatViewController" customModule="Mushcat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zuc-Gv-YAd">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mushBackGround" translatesAutoresizingMaskIntoConstraints="NO" id="cgs-XT-sUz">
-                                <rect key="frame" x="15" y="0.0" width="345" height="667"/>
+                                <rect key="frame" x="15" y="0.0" width="345" height="603"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="catBackground" translatesAutoresizingMaskIntoConstraints="NO" id="JiV-qR-aKg">
                                 <rect key="frame" x="245" y="174" width="88" height="70"/>
@@ -447,7 +447,7 @@
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="catBut2" translatesAutoresizingMaskIntoConstraints="NO" id="KWX-BY-YLn">
-                                <rect key="frame" x="148" y="240" width="114" height="187.5"/>
+                                <rect key="frame" x="148" y="208" width="114" height="187.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="187.5" id="grK-fN-WK4"/>
                                     <constraint firstAttribute="width" constant="114" id="mYA-dz-nCa"/>
@@ -489,11 +489,11 @@
             <objects>
                 <viewController id="c8H-4n-Cul" userLabel="Log In" customClass="LogInViewController" customModule="Mushcat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KAh-Mh-t9U">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mushroom2" translatesAutoresizingMaskIntoConstraints="NO" id="6lX-EP-y0N">
-                                <rect key="frame" x="0.0" y="240" width="375" height="357"/>
+                                <rect key="frame" x="0.0" y="220" width="375" height="313"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="catBut1" translatesAutoresizingMaskIntoConstraints="NO" id="M37-1P-UAd">
                                 <rect key="frame" x="6" y="142" width="100" height="111"/>
@@ -503,7 +503,7 @@
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o27-0B-wy5">
-                                <rect key="frame" x="97.5" y="70" width="180" height="30"/>
+                                <rect key="frame" x="97.5" y="50" width="180" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="180" id="a4d-1d-Nvf"/>
                                 </constraints>
@@ -512,7 +512,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kV0-wo-rbO">
-                                <rect key="frame" x="163.5" y="162" width="48" height="48"/>
+                                <rect key="frame" x="163.5" y="142" width="48" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="kV0-wo-rbO" secondAttribute="height" multiplier="1:1" id="3Le-4g-uhF"/>
                                 </constraints>
@@ -525,7 +525,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WP6-pM-3f4">
-                                <rect key="frame" x="97.5" y="112" width="180" height="30"/>
+                                <rect key="frame" x="97.5" y="92" width="180" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="180" id="3Pu-Zx-5HV"/>
                                 </constraints>
@@ -534,7 +534,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="catBut2" translatesAutoresizingMaskIntoConstraints="NO" id="Wda-b7-AhI">
-                                <rect key="frame" x="129" y="218" width="148" height="111"/>
+                                <rect key="frame" x="129" y="198" width="148" height="111"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="111" id="1FX-9B-YRH"/>
                                     <constraint firstAttribute="width" constant="148" id="Ca4-LD-iej"/>
@@ -616,6 +616,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="tpf-1T-yne"/>
-        <segue reference="Buk-NT-r6S"/>
+        <segue reference="5U9-ba-lNW"/>
     </inferredMetricsTieBreakers>
 </document>

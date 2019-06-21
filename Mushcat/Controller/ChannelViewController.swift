@@ -34,14 +34,22 @@ class ChannelViewController: UIViewController {
     @IBAction func buttonToChat(_ sender: UIButton) {
         clickCount += 1;
         if (clickCount >= 8) {
-            self.performSegue(withIdentifier: "goToChat", sender: self)
+            UIView.animate(withDuration: 2.5, delay: 0.7, options: .curveEaseInOut, animations: {
+                self.mushRun.center.x += 47;
+                self.catRun.center.x -= 47;
+                self.view.backgroundColor = .orange;
+            }, completion: { _ in
+                let alert = UIAlertController(title: "提醒", message: "猫猫是傻逼", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: NSLocalizedString("没错！", comment: "Default action"), style: .default, handler: { _ in
+                    self.performSegue(withIdentifier: "goToChat", sender: self);
+                }))
+                self.present(alert, animated: true, completion: nil)
+            })
         } else {
             self.progress.completedUnitCount += 1;
             self.progressView.setProgress(Float(self.progress.fractionCompleted), animated: true);
             self.progressLabel.text = "\(Int(self.progress.fractionCompleted * 100)) %"
-            UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseInOut, animations: {
-                self.mushRun.center.y += 4;
-                self.catRun.center.y -= 4;
+            UIView.animate(withDuration: 0.7, delay: 0, options: .curveEaseInOut, animations: {
                 self.view.backgroundColor = .orange;
             })
         }
